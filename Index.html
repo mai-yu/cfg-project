@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ESCAPE ROOM PAGE</title>
+  <link rel="stylesheet" href="./CSS/main.css">
+  <script src="./JavaScript/app.js"></script>
+  <script>
+  function  writeText(txt) {
+    document.getElementById("desc").innerHTML = txt;
+  }
+</script>
+</head>
+
+<body>
+    <article class="FlexContainerA">
+    <header>
+      <h1>CodeFirst:Girls - Project</h1>
+    </header>
+    <nav>
+    <ul>
+      <li><a href=>Home</a></li>
+      <li><a href=>About Us</a></li>
+      <li><a href=>Memory Game</a></li>
+      <li><a href=>Card Game</a></li>
+    </ul>
+</article>
+  </nav>
+
+  <main>
+    <article class="EscapeRoomTextBox">
+    <h1 class="EscapeRoomHeading">Welcome to our Escape Room!</h1>
+    <div>
+      <p class="EscapeRoomInstructions">
+        Setting the scene: It's your birthday and you are heading to Chinatown with friends/family for a birthday celebration. You've agreed to meet for lunch at a new restaurant you've been dying to try for ages. When you arrive it looks good - roasted meats in the window and dumplings being made in house! As you walk in you notice that you are the only customers besides two shifty looking men in the corner, nevertheless, the food smells great and you begin discussing meal choices.
+
+        The waiter comes over to the table and your friend starts ordering , sneakily mentioning that it is your birthday at the end. As the friend says the word birthday, the waiter stiffens and looks up before repeating the order and walking away.
+        
+        A few minutes later, the manager comes over with a tray of fortune cookies, wishing you a very happy birthday - what a lovely gesture! All the guests open the fortune cookies expecting to find little paper messages, however what falls out instead are little bags of white powder - the restaurant staff have been selling drugs hidden in the fortune cookies and unbeknownst to you, you have coincidentally ordered the exact combination of menu items which signals that customers are at the restaurant for drugs, and accidentally confirmed the drug order with the code word 'birthday'!
+        
+        The waiters see the shock on your faces and immediately grab all of the guests, ushering you down the stairs and into the basement kitchen before locking the door. You've discovered their secret and the staff are working out what to do with you. You need to escape and alert the police, however, you don't have the fortune cookies as evidence and you can hear the staff working to hide any other evidence. While you are locked in the kitchen, you must uncover clues to find evidence to show to the police before escaping !
+        
+         
+      </p>
+      <div class="EscapeRoomAlign">
+          <button class="button1" onclick="button1();">Try to escape</button>
+    </div>
+    </div>
+    </article>
+    <div class="EscapeRoomAlign">
+      <img src="./Pictures/kitchen.jpg"  class="EscapeRoomImage" alt="objects" usemap="#roommap"/>
+        <map name="kitchen">
+          <area shape ="poly" coords = "64,407,30,27,191,44,125,422"
+          onmouseover="writeText('TESTING ONE')"
+          href ="mushroom.htm" target ="_blank"/>
+
+          <area shape="circle" coords = "291,217,94"
+          onmouseover="writeText('TESTING TWO')"
+          href ="durian.htm" target ="_blank"/> 
+        </map>
+    </div>
+    <p id="desc">Your clues will appear here when you hover over objects.</p>
+  </main>
+
+  <footer>
+    <p class="FooterText">Made with &hearts; by Alice, Chitta, Maryam and Shanise as part of Code First Girls &copy; 2020</p>
+  </footer>
+
+</body>
+
+</html>
