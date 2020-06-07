@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="./CSS/main.css">
   <script src="./JavaScript/app.js"></script>
   <script>
-  function  writeText(txt) {
-    document.getElementById("desc").innerHTML = txt;
+  function writeText(txt) {
+  document.getElementById("desc").innerHTML = txt;
   }
 </script>
 </head>
@@ -40,29 +40,33 @@
         
         A few minutes later, the manager comes over with a tray of fortune cookies, wishing you a very happy birthday - what a lovely gesture! All the guests open the fortune cookies expecting to find little paper messages, however what falls out instead are little bags of white powder - the restaurant staff have been selling drugs hidden in the fortune cookies and unbeknownst to you, you have coincidentally ordered the exact combination of menu items which signals that customers are at the restaurant for drugs, and accidentally confirmed the drug order with the code word 'birthday'!
         
-        The waiters see the shock on your faces and immediately grab all of the guests, ushering you down the stairs and into the basement kitchen before locking the door. You've discovered their secret and the staff are working out what to do with you. You need to escape and alert the police, however, you don't have the fortune cookies as evidence and you can hear the staff working to hide any other evidence. While you are locked in the kitchen, you must uncover clues to find evidence to show to the police before escaping !
-        
-         
+        The waiters see the shock on your faces and immediately grab all of the guests, ushering you down the stairs and into the basement kitchen before locking the door. You've discovered their secret and the staff are working out what to do with you. You need to alert the police, however, you don't have the fortune cookies as evidence and you can hear the staff working to hide any other evidence. While you are locked in the kitchen, you must uncover clues to find evidence to show to the police before escaping !
       </p>
       <div class="EscapeRoomAlign">
           <button class="button1" onclick="button1();">Try to escape</button>
     </div>
     </div>
     </article>
-    <div class="EscapeRoomAlign">
-      <img src="./Pictures/kitchen.jpg"  class="EscapeRoomImage" alt="objects" usemap="#roommap"/>
-        <map name="kitchen">
-          <area shape ="poly" coords = "64,407,30,27,191,44,125,422"
-          onmouseover="writeText('TESTING ONE')"
-          href ="mushroom.htm" target ="_blank"/>
+    <p id="desc" class="cluebox">Your clues will appear here!</p>
+    <img src ="./Pictures/kitchen.jpg" alt="Kitchen" usemap="#kitchenmap" />
 
-          <area shape="circle" coords = "291,217,94"
-          onmouseover="writeText('TESTING TWO')"
-          href ="durian.htm" target ="_blank"/> 
-        </map>
-    </div>
-    <p id="desc">Your clues will appear here when you hover over objects.</p>
-  </main>
+    <map name="kitchenmap">
+    <area shape ="poly"  coords ="60,33,195,37,121,421,43,389"
+    onmouseover="writeText('Hanging up with the mushroom is a scribbled note. It says: You put food in me, but I am not a fridge. I have a handle, but I am not a door. I have a round bottom, and I get very hot. A real Chinese chef needs me. Hover over me for the next clue...')"/>
+    <area shape ="circle" coords ="289,215,98"
+    onmouseover="writeText('Click on the durian to see the invoice and solve the puzzle...when you have solved it, note it down and hover over the red lanterns for your next instruction.')" class="lightbox" href="./Pictures/ERinvoice.jpg"/>
+    <area shape ="poly" coords ="770,385,945,383,944,425,770,427"
+    onmouseover="writeText('Inside the wok is a peice of paper...but it looks like its another code...click on the wok to see the paper, it should give you enough information to pass to the police! When you have solved the code click the button at the bottom left of the room to phone the police.')" class="lightbox" href="Pictures/ERnote.jpg"/>
+    <area shape ="poly" coords ="938,251,1243,129,1326,180,1329,252,1277,303,967,354,931,310" class="lightbox" href="./Pictures/ingredients.png"
+    onmouseover="writeText('Solve this riddle --- ƨwobniw ɿo ƨɿoob on ƨɒʜ mooɿ ʇo bniʞ Ɉɒʜw -- The answer will take you to another clue...click on the lanterns for a hint.')"/>
+    <area shape ="rect" coords ="580,266,650,352" class="lightbox" href="./Pictures/ERinvoice.jpg"/>
+    <area shape ="poly" coords ="233,471,355,457,363,486,328,502,231,494" class="lightbox" href="Pictures/ERchefname.jpg"/>
+    <area shape ="poly" coords ="1173,430,1367,430,1374,497,1177,479" class="lightbox" href="Pictures/ERchefname.jpg"/>
+    
+  
+      <button class="button2" onclick="button2();">Phone the Police</button>
+    
+        </main>
 
   <footer>
     <p class="FooterText">Made with &hearts; by Alice, Chitta, Maryam and Shanise as part of Code First Girls &copy; 2020</p>
