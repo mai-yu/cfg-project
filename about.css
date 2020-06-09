@@ -4,6 +4,33 @@ body {
     background-color:bisque;
   }
   
+ul {
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-style: none;
+    padding-top: 1.5em;
+}
+
+li {
+    float: left;
+    padding-right: 4em;
+    font-size: 14pt;
+}
+
+
+.FlexContainerA {
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
   
   .img-puppy{ 
 
