@@ -1,0 +1,94 @@
+
+body {
+  
+    background-color:bisque;
+  }
+  
+  
+  .img-puppy{ 
+
+    position: absolute;
+    left: 700px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .table {   
+      position: relative; 
+      bottom: auto; 
+      width: 100%;
+      top: 325px;
+    
+  }
+
+  .footer {
+    position: relative;
+    top: 325px;
+    width: 100%;
+    height: 50px; 
+    padding-top: 0px;
+    background-color:#FF8080;
+  }
+
+.footertext {
+  text-align: center;
+  padding-top: 1em;
+  top:20em;
+  bottom: 40em;
+  text-decoration-color: rosybrown;
+  text-decoration: bolder;
+}
+.tr {
+padding-top: 0em;
+padding-bottom: 60em;
+text-decoration: coral;
+font-weight: bold; 
+}
+.header {
+  background-color: coral;
+  white-space: nowrap;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+
+}
+
+.header-right { 
+  position:relative;
+  text-align: right;
+  bottom: 3em
+}
+
+.header-left { 
+  position:relative;
+  text-align: left;
+}
+.mainbody {
+position: relative;
+top: 10em;
+}
+
+h1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+position: relative;
+text-align: left;
+padding-left: 5em;
+}
+
+h4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  position: relative;
+  text-align: left;
+  padding-left: 2em;
+  text-decoration: darksalmon;
+  }
+.bodytext {
+  position: relative;
+  text-align: left;
+  tex
+}
+
+.portrait {
+ text-align: center;
+ 
+}
