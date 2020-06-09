@@ -31,10 +31,6 @@ function checkForMatch (){
       isMatch? disableCards(alert ("You found a match!")):unFlipCards()
 
 }
-//resultDisplay.textContent= cardsWon.length
-//if (cardsWon.length == cardsArray.length/2){
-    //resultDisplay.testContent = "Congratulations! You found them all!"
-//}
 
 function disableCards (){
 
