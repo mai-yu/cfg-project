@@ -2,7 +2,6 @@ function button1() {
     var Clue1 = prompt("On the chopping bench in the kitchen there are two items which could be used as evidence. One item provides direct evidence and you will be able to continue to the next stage straight away - the others will require you to solve a puzzle first...which do you choose 1 or 2?");
     
     if (Clue1==1) {
-      var Invoice = prompt("You chose option 1, an old invoice!");
       var Invoice = alert("You chose option 1, an old invoice! Hover the mouse over the hanging durian fruit for further instructions");
     }
     else {
