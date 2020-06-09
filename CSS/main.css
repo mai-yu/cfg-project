@@ -64,6 +64,16 @@ li {
     font-size: 14pt;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px;
+}
+nav :hover{
+    color: white;
+}
 
 .FlexContainerA {
     display: flex;
