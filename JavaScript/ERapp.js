@@ -37,6 +37,4 @@ function button1() {
           alert("Hmmmm check the note from the casino again.");
         }
       }
-         
         
-
