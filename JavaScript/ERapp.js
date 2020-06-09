@@ -39,16 +39,4 @@ function button1() {
       }
          
         
-    var Clue2 = alert("You sucessfully found one clue, to get the next clue you need to solve the riddle");
-    
-    var Answer1 = prompt("What would you like your first item to be?");
-    
-    var Item2 = prompt("What would you like your second item to be?");
-      
-    
-    var Item3 = prompt("What would you like your third item to be?");
-    
-    var ShoppingList = [Item1, Item2, Item3];
-    console.log(ShoppingList);
-    
-    var FinalList = alert(`You collected all the clues and escaped the room. You sound out that... ${ShoppingList}.`)
+
